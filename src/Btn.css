@@ -1,0 +1,23 @@
+.button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+a {
+  border: 2px solid blanchedalmond;
+  padding: 5px;
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: tomato;
+  transition: ease-in-out 0.5s;
+}
+a:hover {
+  background-color: darkcyan;
+  transition: ease-in-out 0.5s;
+  color: white;
+}
